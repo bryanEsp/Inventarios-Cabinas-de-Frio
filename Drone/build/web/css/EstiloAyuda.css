@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/11/2019, 01:20:27 PM
+    Author     : Usuario
+*/
+
+ul,ol{
+    list-style: none;
+}
+
+.slidesshow{
+    width: 100%;
+    position: absolute;
+}
+.slider li ul{
+    width: 100%;
+}
+.slider li img{
+    width: 100%;
+}
+/*.slider .caption{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}*/
+.pagination{
+    position: fixed;
+    top: 25%;
+    left: 45%;
+    width: 10%;
+    display:flex;
+    justify-content: center;
+    margin: 550px 0px 0px auto;
+    z-index: 100;
+}
+.pagination li{
+    font-size: 20px;
+    margin: 2px 5px;
+    color: #858585;
+    cursor: pointer;
+}
+.left, .right{
+    position: fixed;
+    height: 100px;
+    display: flex;
+
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+.left{
+    left: 10%;
+    top: 50%;
+    z-index: 100;
+}
+.right{
+    right: 10%;
+    top: 50%;
+    z-index: 100;
+}
+/* ------------------------- */
+/* POPUP */
+/* ------------------------- */
+.overlay {
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.popup {
+    background: #F8F8F8;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+
+    transition: .3s ease all;
+    transform: scale(0.7);
+    opacity: 0;
+}
+.modal{
+    position: fixed;
+    display: flex;	
+    justify-content: center; 
+    transition: 1s;
+    top: -1.5%;
+    left: 0;
+}
+.modal h1{
+color: #fff;
+font-size: 40px;
+text-align: center;
+margin: 15px;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+.modal-style{
+    width: 55%;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3);
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    transition: 1s;
+}
+.modal-header h3{
+    text-align:  center;
+
+}
+.imagenlado{
+    padding: 1px 1px 1px 1px;
+  margin: 1px;
+  display:inline-block;
+  width: 350px;
+}
+.close{
+    font-size: 30px;
+}
+

@@ -1,0 +1,88 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('../img/fondo.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.Contenedor{
+height: 100%;
+align-content: center;
+}
+
+.Campos{
+height: 470px;
+margin-top: auto;
+margin-bottom:  auto;
+width: 400px;
+background-color: rgba(255,255,255,0.5) !important;
+}
+
+.card-header h3{
+color: rgb(70, 82, 85);
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: rgb(49,147,154);
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: rgb(70, 82, 85);
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: white;
+background-color: rgb(49,147,154);
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: rgb(70, 82, 85);
+}
+i{
+    color:white;
+}
+
+.links a{
+margin-left: 4px;
+}
+        .errores{
+            
+            background: #2C3E50;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            color: #fff;
+            display: none;
+            font-size: 14px;
+            margin-top: -57px;
+            margin-left: 370px;
+            padding: 10px;
+            position:absolute;
+            width: 150px;
+        }
